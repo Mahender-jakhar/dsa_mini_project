@@ -50,8 +50,7 @@ void account::show_account() const
 }
 
 
-void account::modify()
-{
+void account::modify(){
 	cout<<"\nAccount No. : "<<acno;
 	cout<<"\nModify Account Holder Name : ";
 	cin.ignore();
