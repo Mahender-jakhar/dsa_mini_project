@@ -23,7 +23,7 @@ public:
 	int retacno() const;	//function to return account number
 	int retdeposit() const;	//function to return balance amount
 	char rettype() const;	//function to return type of account
-};         //class ends here
+};                              //class ends here
 
 void account::create_account()
 {
@@ -50,8 +50,7 @@ void account::show_account() const
 }
 
 
-void account::modify()
-{
+void account::modify(){
 	cout<<"\nAccount No. : "<<acno;
 	cout<<"\nModify Account Holder Name : ";
 	cin.ignore();
